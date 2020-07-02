@@ -38,6 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'matplotlib',
+    'numpy',
+    'torch',
+    'torchvision.transforms',
+    'PIL',
+    'torch.autograd',
+    # 'pillow',
 ]
 
 MIDDLEWARE = [
